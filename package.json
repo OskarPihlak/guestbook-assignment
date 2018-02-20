@@ -1,0 +1,25 @@
+{
+    "name": "guestbook-assignment",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "nodemon --watch src/ --exec babel-node src/index.js",
+        "test": "jest test --watchAll"
+    },
+    "author": "Ragnar Laud <ragnar.laud@hotmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "lokijs": "^1.5.3",
+        "restify": "^6.3.4",
+        "restify-cors-middleware": "^1.1.0"
+    },
+    "devDependencies": {
+        "axios": "^0.18.0",
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.0",
+        "babel-jest": "^22.2.2",
+        "babel-preset-env": "^1.6.1",
+        "faker": "^4.1.0",
+        "jest": "^22.3.0"
+    }
+}
