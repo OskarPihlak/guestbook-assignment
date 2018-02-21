@@ -9,6 +9,7 @@
     "author": "Ragnar Laud <ragnar.laud@hotmail.com>",
     "license": "ISC",
     "dependencies": {
+        "ip": "^1.1.5",
         "lokijs": "^1.5.3",
         "restify": "^6.3.4",
         "restify-cors-middleware": "^1.1.0"
