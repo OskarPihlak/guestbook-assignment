@@ -21,6 +21,11 @@
         "babel-jest": "^22.2.2",
         "babel-preset-env": "^1.6.1",
         "faker": "^4.1.0",
-        "jest": "^22.3.0"
+        "jest": "^22.3.0",
+        "colors": "^1.1.2"
+    },
+    "jest": {
+        "verbose": true,
+        "testURL":"http://localhost:3000/guestbook"
     }
 }
