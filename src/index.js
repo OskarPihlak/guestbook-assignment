@@ -42,10 +42,10 @@ app.get('/guestbook', (req, res) => {
         });
         if (data.length > 0) {
             res.status(200);
-            res.json({data});
+            res.send({data});
         } else {
             res.status(404);
-            res.json({message: "No results returned from database"});
+            res.send({message: "No results returned from database"});
         }
     });
 });
